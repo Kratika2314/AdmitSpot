@@ -1,0 +1,124 @@
+/* Header */
+header {
+    background-color: var(--color-secondary);
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: var(--color-primary);
+  }
+  
+  /* Contact Methods */
+  .contact-methods {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+  }
+  
+  .contact-methods div {
+    text-align: center;
+  }
+  
+  .contact-methods img {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-methods h3 {
+    font-size: 1.2rem;
+    color: var(--color-primary);
+  }
+  
+  .contact-methods p {
+    color: #666;
+  }
+  
+  /* Virtual Office */
+  .virtual-office {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .virtual-office h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: var(--color-primary);
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+  }
+  
+  .contact-form form {
+    width: 100%;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    background-color: var(--color-accent);
+    color: var(--color-secondary);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Office Locations */
+  .office-locations {
+    background-color: var(--color-secondary);
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .office-locations div {
+    text-align: center;
+    width: 45%;
+  }
+  
+  .office-locations img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: var(--color-footer);
+    color: var(--color-secondary);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .contact-methods,
+    .contact-form,
+    .office-locations {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .office-locations div {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
