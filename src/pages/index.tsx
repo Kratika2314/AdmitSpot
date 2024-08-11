@@ -2,10 +2,9 @@ import React from 'react';
 import Header from '../components/Header';
 import ContactMethods from '../components/ContactMethods';
 import VirtualOffice from '../components/VirtualOffice';
-import CallbackForm from '../components/CallbackForm';
+import ContactForm from '../components/ContactForm';
 import OfficeLocations from '../components/OfficeLocations';
 import Footer from '../components/Footer';
-import '../styles/App.css';
 
 const Home: React.FC = () => (
     <div className="app">
@@ -13,7 +12,7 @@ const Home: React.FC = () => (
         <ContactMethods />
         <VirtualOffice />
         <div className="form-container">
-            <CallbackForm />
+            <ContactForm />
             <OfficeLocations />
         </div>
         <Footer />
